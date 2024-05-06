@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Понимание Docker: контейнеризация и виртуализация для разработки и тестирования.">
+    <meta name="keywords" content="Docker, контейнеризация, виртуализация, разработка, тестирование">
+    <meta name="author" content="Your Name">
+    <title>Docker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            color: #007bff;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+
+        strong {
+            font-weight: bold;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Docker</h2>
+        <ul>
+            <li>Разработчики используют технологии контейнеризации и виртуализации в рамках практики CI/CD для изоляции тестовых сред и упрощения развертывания тестовых инфраструктур.</li>
+            <li><strong>Виртуализация</strong>: создание изолированных сред на одном физическом устройстве.</li>
+            <li>Для ускорения процесса используют контейнеры.</li>
+            <li><strong>Контейнер</strong>: виртуальная машина без собственной операционной системы.</li>
+            <li>Вся работа ведется в операционной системе хоста, где запускается контейнер. Вспомогательные программы в контейнере изолированы от хоста и других контейнеров, что обеспечивает быстрый запуск и эффективность.</li>
+            <li><strong>Docker</strong>: платформа для управления контейнерами, облегчающая создание, развертывание и запуск приложений в изолированных средах.</li>
+            <li>Основная задача Docker — упростить развертывание приложений и сократить время настройки.</li>
+            <li><strong>Docker Image</strong>: набор приложений, библиотек и настроек для развертывания контейнера.</li>
+            <li>Docker Image создается на основе Docker-файла, в котором указываются все необходимые настройки.</li>
+            <li><strong>Docker Container</strong>: контейнер, созданный на базе Docker Image.</li>
+            <li>Разработчик создает Image, который можно использовать для развертывания контейнеров. Тестировщики запускают контейнер для работы, при этом не имея возможности изменять Image.</li>
+        </ul>
+    </div>
+</body>
+</html>

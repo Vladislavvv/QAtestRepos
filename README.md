@@ -1,1 +1,1 @@
-# QAtestRepos
+Работа с репозиторием GitHub

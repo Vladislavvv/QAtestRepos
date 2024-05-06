@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Обучающий портал компании</title>
+    <link rel="stylesheet" href="css/index.css">
+    <style>
+        body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, #007BFF, #00BFFF);
+}
+        .container a {
+            display: block;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 24px;
+            color: #fff;
+            text-decoration: none;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .main {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .col-1-2, .col-2-2 {
+            width: 45%;
+            text-align: center;
+        }
+        .col-2-2 {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="#">Обучающий портал компании</a>
+        
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="cmd.html">Командная строка Win</a></li>
+            <li><a href="macOS.html">Терминал Mac</a></li>
+            <li><a href="git.html">Команды Git</a></li>
+            <li><a href="cicd.html">CI/CD</a></li>
+            <li><a href="docker.html">Docker</a></li>
+        </ul>
+        
+        <div class="main">
+            <div class="col-1-2">
+                <p><a href="index.html"><img src="jpg/logo.jpg" alt="Logo" width="100" height="100"></a></p>
+            </div>
+            <div class="col-2-2">
+                <p><a href="cmd.html"><img src="jpg/win.jpg" alt="Windows Terminal" width="100" height="100"></a></p>
+            </div>
+            <div class="col-1-2">
+                <p><a href="macOS.html"><img src="jpg/mac.jpg" alt="Mac Terminal" width="100" height="100"></a></p>
+            </div>
+            <div class="col-2-2">
+                <p><a href="git.html"><img src="jpg/git.jpg" alt="Git Commands" width="100" height="100"></a></p>
+            </div>
+            <div class="col-2-2">
+                <p><a href="cicd.html"><img src="jpg/devops-concept-feat-1.jpg" alt="CI/CD" width="100" height="100"></a></p>
+            </div>
+            <div class="col-2-2">
+                <p><a href="docker.html"><img src="jpg/Без названия.png" alt="Docker" width="100" height="100"></a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
